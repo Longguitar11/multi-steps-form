@@ -1,0 +1,8 @@
+{
+  "extends": ["react-app", "plugin:storybook/recommended"],
+  "plugins": ["eslint-plugin-absolute-imports", "unused-imports"],
+  "rules": {
+    "absolute-imports/only-absolute-imports": 1,
+    "unused-imports/no-unused-imports-ts": 2
+  }
+}
